@@ -11,7 +11,7 @@ export default class AlertComponent extends NoroffJS.Component {
 
     protected onMount() {
         this.shadowRoot.querySelector("button")?.addEventListener("click", () => {
-            alert(this.getAttribute("message"));
+            window.alert(this.getAttribute("message"));
         });
     }
 
