@@ -1,0 +1,17 @@
+.items {
+    display: none;
+}
+
+.active ~ .items {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    background: Red;
+    padding: 1rem;
+}
+
+.items a {
+    color: inherit;
+}
