@@ -1,0 +1,16 @@
+button {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background-color: rgb(24, 192, 24);
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+}
